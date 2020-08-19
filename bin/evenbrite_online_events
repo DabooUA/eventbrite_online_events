@@ -1,3 +1,8 @@
 #!/usr/bin/env ruby
 
-puts "Hello"
+require_relative '../lib/eventbrite_online_events'
+
+EventbriteOnlineEvents::CLI.new.call
+
+
+#puts "Hello"
