@@ -1,0 +1,3 @@
+module EventbriteOnlineEvents
+  VERSION = "0.1.0"
+end
